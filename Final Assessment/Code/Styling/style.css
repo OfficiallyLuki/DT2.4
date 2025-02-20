@@ -4,13 +4,13 @@ nav {
     margin-top: 10%;
     background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(10px);
-    padding: 1rem;
+    padding: 0.2rem;
     position: fixed;
     width: 80%;
     left: 50%;
     transform: translateX(-50%);
     top: 2rem;
-    border-radius: 30px;
+    border-radius: 100px;
     border: 1px solid rdba(255, 255, 255, 0.5);
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.5);
 }
@@ -24,10 +24,10 @@ ul {
 
 a {
     text-decoration: none;
-    color: #fdda79;
-    font-weight: 500;
+    color: #000000;
+    font-weight: 750;
     position: relative;
-    padding: 5px 0;
+    padding: 10px 0;
     transition: color 0.3s ease;
 
 }
@@ -59,4 +59,30 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#logo {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+    position: fixed;
+    top: 13%;
+    left: 40%;
+    right: 50%;
+    bottom: 10%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#main_image {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 40%;
+    left: 50%;
+    right: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
