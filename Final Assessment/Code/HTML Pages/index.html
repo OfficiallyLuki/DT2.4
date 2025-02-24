@@ -3,13 +3,13 @@
 
     <head> <!-- Basic Website Setting/Name, linking the style sheet -->
             <meta charset="=utf-8">
-            <link rel="stylesheet" href="/Code/Styling/style.css"> <!-- Stylesheet Link -->
+            <link rel="stylesheet" href="style.css"> <!-- Stylesheet Link -->
             <title> Maunga Club - Home</title>
     </head>
 
 <body> <!-- Website Content -->
-    <img id="main_image" src="/Website Images/mountain_view_1.jpg"> <!-- Companys Landing Image -->
-    <img id="logo" src="/Website Images/Maunga_Club_white.png"> <!-- Companys Website Logo -->
+    <img id="main_image" src="/Final Assessment/Website Images/mountain_view_1.jpg"> <!-- Companys Landing Image -->
+    <img id="logo" src="/Final Assessment/Website Images/Maunga_Club_white.png"> <!-- Companys Website Logo -->
 
     <nav> <!-- Navigation Bar to other page locations -->
         <ul>
@@ -20,6 +20,42 @@
             <li><a href="contact.html"> Contact us </a></li>
         </ul>
     </nav>
+
+    <!-- Slideshow container - class is to link to the style sheet to properly output the display correctly -->
+    <div class ="slideshow-container">
+
+        <!-- Full display of images, includes the slideshow and caption text of the images displaying -->
+
+        <div class="mySlides fade">
+            <div class ="numbertext">1 / 3</div>
+            <img src="/Final Assessment/Website Images/mountain_view_light.jpg" style="width: 100%;">
+            <div class="text"> Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class ="numbertext">2 / 3</div>
+            <img src="/Final Assessment/Website Images/mountain_view_light.jpg" style="width: 100%;">
+            <div class="text"> Caption Text 2</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class ="numbertext">3 / 3</div>
+            <img src="/Final Assessment/Website Images/mountain_view_light.jpg" style="width: 100%;">
+            <div class="text"> Caption Text 3</div>
+        </div>
+
+        <!-- Next and previous buttons displayed -->
+         <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+         <a class="next" onclick="plusSlides(-1)">&#10095</a>
+    </div>
+    <br>
+
+    <!-- the dot/circles that indicate what slide your on/how many slides there are -->
+     <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+     </div>
     
 </body>
 
