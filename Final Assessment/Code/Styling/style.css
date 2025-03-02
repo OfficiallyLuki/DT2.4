@@ -87,6 +87,12 @@ body {
     transform: translate(-50%, -50%);
 }
 
+/* CSS for the relevant information displayed on the top page */
+
+#information_main {
+    padding: 5%;
+}
+
 /** CSS for the slideshow container **/
 
 * {box-sizing: border-box;}
@@ -94,7 +100,7 @@ body {
 /* Slideshow container */
 .slideshow-container {
     padding-top: 100%;
-    max-width: 1000px;
+    max-width: 100%;
     position: relative;
     margin: auto;
 }
