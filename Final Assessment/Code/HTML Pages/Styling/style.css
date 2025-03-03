@@ -62,7 +62,7 @@ body {
 }
 
 #logo {
-    width: 40%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,8 +89,10 @@ body {
 
 /* CSS for the relevant information displayed on the top page */
 
-#information_main {
-    padding: 5%;
+h1 {
+    padding: 100%;
+    text-align: center;
+    color: #f2f2f2;
 }
 
 /** CSS for the slideshow container **/
