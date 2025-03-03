@@ -15,6 +15,63 @@ nav { /** Nav Bar styling for basic contents displayed **/
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.5);
 }
 
+main {
+    background-color: #2d572d;
+    margin-top: 50px; /* Add a top margin to avoid content overlay */
+    font-style: normal;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* Adds Space between sections of the website */
+section {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/* Style for the grid format on the website */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2d572d;
+    padding: 10px;
+  }
+
+  /* Style for the grids content on the website */
+  .grid-item {
+    background-color:  #2d572d;
+    border: 1px solid  #2d572d;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  /* Styling for inside content of the grid/container */
+  .leads {
+    margin: 0px;
+    text-align: center;
+    width: 400px;
+    padding-left: 50px;
+    padding-bottom: 75px;
+    background-color: #2d572d;
+  }
+
+  /* Stlying for all buttons */
+  button {
+    background-color: #539553;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  /* To change the state of the colour */
+  button:hover {
+    background-color: #457a45;
+  }
+
 ul { /** Styling for the unordered list **/
     list-style: none;
     display: flex;
@@ -62,7 +119,7 @@ body {
 }
 
 #logo {
-    width: 50%;
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,10 +146,8 @@ body {
 
 /* CSS for the relevant information displayed on the top page */
 
-h1 {
-    padding: 100%;
-    text-align: center;
-    color: #f2f2f2;
+#information_main {
+    padding: 5%;
 }
 
 /** CSS for the slideshow container **/
