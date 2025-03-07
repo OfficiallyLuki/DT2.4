@@ -1,181 +1,181 @@
 body {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 /* The navigation bar */
 nav { 
-    background-color: #000000;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+  background-color: #000000;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
 
 /* Links inside the navbar */
 nav a { 
-    text-decoration: none;
-    text-align: center;
-    display: inline-block; 
-    width: 120px;
-    padding: 15px 0px;
-    color: white;
-    font-weight: bold;
-    float: right;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block; 
+  width: 120px;
+  padding: 15px 0px;
+  color: white;
+  font-weight: bold;
+  float: right;
 }
 
 /* To change the background on mouse hover */ 
 nav a:hover {
-    background-color: #1b1b1b;
+  background-color: #1b1b1b;
 }
 
 /* Logo displayed on website top left in navbar */
 .leftimage { 
-    width: 180px;
-    background-color: transparent;
+  width: 180px;
+  background-color: transparent;
 }
 
 /* Main welcome image for the website */
 #hero_image {
-    background-size: cover;
-    background-position: center;
+  background-size: cover;
+  background-position: center;
 }
 
 /* Main content */
 main {
-    background-color: #000000;
-    margin-top: 50px; /* Add a top margin to avoid content overlay */
-    font-style: normal;
-    color: white;
-    text-align: center;
-    font-family: sans-serif;
+  background-color: #000000;
+  margin-top: 50px; /* Add a top margin to avoid content overlay */
+  font-style: normal;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
 }
 
 /* Main Welcome header to the website */
 .main { 
-    font-size: 80px;
-    margin: 0px;
+  font-size: 80px;
+  margin: 0px;
 }
 
 /* Adds Space between sections of the website */
 section {
-    padding-bottom: 20px;
-    text-align: center;
+  padding-bottom: 20px;
+  text-align: center;
 }
 
 /* Style for the grid format on the website */
 .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: #1b1b1b;
-    padding: 10px;
-  }
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #1b1b1b;
+  padding: 10px;
+}
 
-  /* Style for the grids content on the website */
-  .grid-item {
-    background-color:  #1b1b1b;
-    border: 1px solid  #1b1b1b;
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-  }
+/* Style for the grids content on the website */
+.grid-item {
+  background-color:  #1b1b1b;
+  border: 1px solid  #1b1b1b;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
 
-  /* Styling for inside content of the grid/container */
-  .leads {
-    margin: 0px;
-    text-align: center;
-    width: 400px;
-    padding-left: 50px;
-    padding-bottom: 75px;
-    background-color: #1b1b1b;
-  }
+/* Styling for inside content of the grid/container */
+.leads {
+  margin: 0px;
+  text-align: center;
+  width: 400px;
+  padding-left: 50px;
+  padding-bottom: 75px;
+  background-color: #1b1b1b;
+}
 
-  /* Stlying for all buttons */
-  button {
-    background-color: #ffffff;
-  }
+/* Stlying for all buttons */
+button {
+  background-color: #ffffff;
+}
 
-  /* To change the state of the colour */
-  button:hover {
-    background-color: #b9b9b9;
-  }
+/* To change the state of the colour */
+button:hover {
+  background-color: #b9b9b9;
+}
 
-  /* Adds space to the bottom of paragraphs */
-  .rulebelow {
-    margin-bottom: 5px;
-    padding-bottom: 1px;
-    background-color: #1b1b1b;
-  }
+/* Adds space to the bottom of paragraphs */
+.rulebelow {
+  margin-bottom: 5px;
+  padding-bottom: 1px;
+  background-color: #1b1b1b;
+}
 
-  /* CONTACT US PAGE STYLE */
-  /* Style inputs with type="text", select elements and textareas */
+/* CONTACT US PAGE STYLE & MEMBERSHIP PAGE*/
+/* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-  width: 100%; 
-  padding: 12px; 
-  border: 1px solid #ccc; 
-  border-radius: 4px; 
-  box-sizing: border-box; 
-  margin-top: 6px; 
-  margin-bottom: 16px; 
-  resize: vertical;
+width: 100%; 
+padding: 12px; 
+border: 1px solid #ccc; 
+border-radius: 4px; 
+box-sizing: border-box; 
+margin-top: 6px; 
+margin-bottom: 16px; 
+resize: vertical;
 }
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+background-color: #04AA6D;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #45a049;
+background-color: #45a049;
 }
 
 /* Add a background color and some padding around the contact us form */
 .container1 {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+border-radius: 5px;
+background-color: #1b1b1b;
+padding: 20px;
 }
 
 /* Footer style for contact details */
 footer {
-    background-color: #000000;
-    padding: 10px;
-    color: white;
-    margin: 0px;
-    text-align: center;
+  background-color: #000000;
+  padding: 10px;
+  color: white;
+  margin: 0px;
+  text-align: center;
 }
 
 a { /** Styling for the anchor tag within the navigational bar **/
-    text-decoration: none;
-    color: #000000;
-    font-weight: 750;
-    position: relative;
-    padding: 10px 0;
-    transition: color 0.3s ease;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 750;
+  position: relative;
+  padding: 10px 0;
+  transition: color 0.3s ease;
 
 }
 
 a::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 2px;
-    background: white;
-    bottom: 0;
-    left: 50%;
-    transition: all 0.3s ease;
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: white;
+  bottom: 0;
+  left: 50%;
+  transition: all 0.3s ease;
 
 }
 a:hover::after {
-    width: 100%;
-    left: 0;
+  width: 100%;
+  left: 0;
 }
 
 a:hover {
-    color: #fff;
+  color: #fff;
 }
